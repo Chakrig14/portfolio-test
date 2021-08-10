@@ -1,0 +1,31 @@
+.link-tag{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding:0px;
+}
+.navbar{
+    color:#edf4f5;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.navbar-out{
+    background-color: transparent;
+    border:2px solid #edf4f5;
+    padding: 5px;
+}
+.menu-icon{
+    background-color: #edf4f5;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.navbar-lg{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .navbar-lg{
+        display: block;
+    }
+}
